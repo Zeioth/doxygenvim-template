@@ -1,0 +1,2 @@
+In this directory you will find a generic doxyfile.
+Feel free to adapt it for your project.
