@@ -4,9 +4,9 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "Project"
+PROJECT_NAME           = "vim-doxygen"
 PROJECT_NUMBER         =
-PROJECT_BRIEF          = "Project description"
+PROJECT_BRIEF          = "Doxygen documentation on VIM"
 PROJECT_LOGO           =
 OUTPUT_DIRECTORY       = ./
 CREATE_SUBDIRS         = NO
@@ -42,7 +42,7 @@ SEPARATE_MEMBER_PAGES  = NO
 TAB_SIZE               = 4
 ALIASES                =
 OPTIMIZE_OUTPUT_FOR_C  = NO
-OPTIMIZE_OUTPUT_JAVA   = YES
+OPTIMIZE_OUTPUT_JAVA   = NO
 OPTIMIZE_FOR_FORTRAN   = NO
 OPTIMIZE_OUTPUT_VHDL   = NO
 OPTIMIZE_OUTPUT_SLICE  = NO
