@@ -1,2 +1,0 @@
-This is a CSS template for doxygen. You can find it here:
-https://github.com/Velron/doxygen-bootstrapped
