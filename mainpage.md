@@ -26,17 +26,18 @@ like the file and directory structure of
 ```
 
 ## Advanced: How to customize an existing theme
-Doxygen themes will normally use the next DoxyFile parameters.
-Make sure they are correct when installing, or creating a theme.
+The most relevant DoxyFile settings to tweak when customizing or
+creating a theme are:
 
 ```
 # This is just an example, values may difer.
 
-HTML_HEADER            = ./theme/header.html
-HTML_FOOTER            = ./theme/footer.html
-HTML_STYLESHEET        = ./theme/css.html
-HTML_EXTRA_FILES       = ./theme/any-extra-file-you-want-to-include.html \
-                         ./theme/should-look-like-this.png \
+HTML_HEADER            = ./header.html
+HTML_FOOTER            = ./footer.html
+HTML_STYLESHEET        = ./css-to-replace-doxygen-styles.css
+HTML_EXTRA_STYLESHEET  = ./css-to-extend-doxygen-styles.css
+HTML_EXTRA_FILES       = ./any-extra-file-you-want-to-include.html \
+                         ./should-look-like-this.png \
 DOXYGEN_LAYOUT         = ./DoxygenLayout.xml
 ```
 
